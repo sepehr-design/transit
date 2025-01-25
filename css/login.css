@@ -81,7 +81,6 @@ input:focus ~ i {
 input{
     border: none;
     outline: none;
-    border-radius: 30px;
     font-size: 1.1em;
 }
 .login-txt{
