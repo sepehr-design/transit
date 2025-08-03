@@ -140,3 +140,9 @@ button {
 button:hover {
     background-color: #8b33c5;
 }
+
+@media only screen and (max-width: 650px) {
+    .form1 {
+        padding: 0;
+    }
+}
