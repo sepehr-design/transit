@@ -28,7 +28,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh
+    min-height: 50vh
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -115,7 +115,7 @@ input {
 }
 
 .login-txt {
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     font-size: 2em;
     color: rgba(80, 80, 80);
 }
@@ -144,5 +144,21 @@ button:hover {
 @media only screen and (max-width: 650px) {
     .form1 {
         padding: 0;
+    }
+
+    .login-txt {
+        margin-bottom: 20px;
+    }
+
+    .join-flex {
+        margin: 10px;
+    }
+
+    .remember-flex {
+        margin: 5px
+    }
+
+    button {
+        margin-top: 20px;
     }
 }
